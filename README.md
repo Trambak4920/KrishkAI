@@ -92,3 +92,8 @@ KrishkAI is an AI-driven agricultural ecosystem mobile app designed for Indian f
 | POST | /api/credit/assess | Credit scoring |
 | GET | /api/knowledge/base | Offline knowledge data |
 
+---
+
+## 📌 Acknowledgements
+- FastAPI and TensorFlow Teams
+- Hugging Face Community Models

@@ -1,0 +1,92 @@
+{
+  "typography": {
+    "font_family": {
+      "headings": "Inter-Bold",
+      "body": "Inter-Regular",
+      "mono": "SpaceMono-Regular"
+    },
+    "scale": {
+      "h1": "text-4xl font-bold tracking-tight text-green-900",
+      "h2": "text-3xl font-bold text-green-800",
+      "h3": "text-2xl font-semibold text-green-800",
+      "body_lg": "text-lg leading-relaxed text-gray-800",
+      "body_base": "text-base leading-relaxed text-gray-700",
+      "caption": "text-sm text-gray-500"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#2E7D32",
+        "foreground": "#FFFFFF"
+      },
+      "secondary": {
+        "DEFAULT": "#F9A825",
+        "foreground": "#1A1A1A"
+      },
+      "background": "#F1F8E9",
+      "surface": "#FFFFFF",
+      "muted": "#F5F5F5",
+      "error": "#D32F2F",
+      "success": "#388E3C",
+      "warning": "#FFA000"
+    },
+    "guidelines": "Use 'Organic & Earthy' archetype. Primary Green (#2E7D32) for main actions. Harvest Yellow (#F9A825) for highlights. Background should be Pale Green (#F1F8E9) to reduce glare outdoors."
+  },
+  "visual_enhancers": {
+    "radius": "rounded-xl",
+    "shadows": {
+      "card": "shadow-sm border border-gray-100",
+      "floating": "shadow-lg"
+    },
+    "spacing": {
+      "container": "p-4",
+      "section": "py-6"
+    }
+  },
+  "component_guidelines": {
+    "buttons": {
+      "primary": "bg-[#2E7D32] rounded-full py-4 px-6 items-center justify-center active:opacity-90",
+      "secondary": "bg-[#F9A825] rounded-full py-4 px-6 items-center justify-center active:opacity-90",
+      "outline": "border-2 border-[#2E7D32] rounded-full py-4 px-6 items-center justify-center"
+    },
+    "cards": {
+      "base": "bg-white rounded-2xl p-5 shadow-sm border border-green-50/50",
+      "interactive": "active:scale-95 transition-transform"
+    },
+    "inputs": {
+      "base": "bg-white border border-gray-200 rounded-xl p-4 text-lg text-gray-900",
+      "focus": "border-[#2E7D32] ring-2 ring-green-100"
+    }
+  },
+  "layout_strategies": {
+    "dashboard": "Bento Grid: Mixed size cards. Key metrics (Weather/Crop) take 2x1 or 2x2 spans.",
+    "forms": "Wizard style. One question per screen or grouped by context. Large inputs.",
+    "lists": "Card-based lists with large thumbnails and bold titles.",
+    "navigation": "Bottom Tab Bar with labeled icons. Avoid Hamburger menus."
+  },
+  "image_urls": {
+    "hero_farmer": "https://images.unsplash.com/photo-1609252509102-aa73ff792667?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTF8MHwxfHNlYXJjaHwzfHxpbmRpYW4lMjBmYXJtZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzMzMDAxOTl8MA&ixlib=rb-4.1.0&q=85",
+    "farmer_group": "https://images.unsplash.com/photo-1740477138822-906f6b845579?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2OTV8MHwxfHNlYXJjaHwxfHxncm91cCUyMG9mJTIwaW5kaWFuJTIwZmFybWVyc3xlbnwwfHx8fDE3NzMzMDAyMDB8MA&ixlib=rb-4.1.0&q=85",
+    "healthy_crop": "https://images.unsplash.com/photo-1753293927122-ddd8371eefd4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHw0fHxjbG9zZSUyMHVwJTIwZ3JlZW4lMjBjcm9wJTIwbGVhZiUyMGhlYWx0aHl8ZW58MHx8fHwxNzczMzAwMTg3fDA&ixlib=rb-4.1.0&q=85",
+    "diseased_leaf": "https://images.unsplash.com/photo-1694100223107-c898e5c117c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwxfHxkaXNlYXNlZCUyMGNyb3AlMjBsZWFmJTIwc3BvdHMlMjBjbG9zZSUyMHVwfGVufDB8fHx8MTc3MzMwMDE4N3ww&ixlib=rb-4.1.0&q=85",
+    "soil_sprout": "https://images.unsplash.com/photo-1647631703143-a7d8dc552c8c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwyfHxoYW5kcyUyMGhvbGRpbmclMjBzb2lsJTIwc3Byb3V0fGVufDB8fHx8MTc3MzMwMDIwMHww&ixlib=rb-4.1.0&q=85",
+    "finance_rupees": "https://images.unsplash.com/photo-1565373676943-403a8e5c2900?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTN8MHwxfHNlYXJjaHw0fHxpbmRpYW4lMjBydXBlZSUyMGNvaW5zJTIwbW9uZXklMjBhZ3JpY3VsdHVyZXxlbnwwfHx8fDE3NzMzMDAxODl8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "instructions_to_main_agent": [
+    "CRITICAL: The project is React Native Expo.",
+    "1. INSTALL NATIVEWIND: Run `yarn add nativewind tailwindcss react-native-css-interop`.",
+    "2. SETUP TAILWIND: Create `tailwind.config.js` in /app/frontend/ and configure it for content: ['./app/**/*.{js,jsx,ts,tsx}', './components/**/*.{js,jsx,ts,tsx}'].",
+    "3. ICONS: Use `@expo/vector-icons` (Ionicons or MaterialCommunityIcons) which is already installed.",
+    "4. NAVIGATION: Use `expo-router` (already installed). Create tabs in `app/(tabs)/_layout.tsx`.",
+    "5. SHADCN-LIKE: Build 'primitive' components (Card, Button, Input) in `components/ui/` using nativewind classes. Do not try to install web-only shadcn/ui.",
+    "6. API: Backend is FastAPI. Ensure proper `fetch` calls to `http://10.0.2.2:8000` (Android Emulator) or localhost.",
+    "7. UI RULES: Keep text large (min 16px). Use Icons heavily. No gradients on text."
+  ],
+  "universal_guidelines": [
+    "Design for outdoor usage (high contrast).",
+    "Target audience: Low digital literacy. Make buttons BIG.",
+    "Offline-first mindset: Cache API responses.",
+    "Language support: Prepare UI for dynamic string lengths (Hindi/Tamil strings can be long)."
+  ]
+}

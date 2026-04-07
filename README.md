@@ -39,7 +39,7 @@ KrishkAI is an AI-driven agricultural ecosystem mobile app designed for Indian f
 
 ---
 
-## Features
+## 🚀 Features
 
 ### 1. 👤 User Authentication
 - Phone-based registration and login

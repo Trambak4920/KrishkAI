@@ -94,6 +94,7 @@ KrishkAI is an AI-driven agricultural ecosystem mobile app designed for Indian f
 
 ---
 
-## 📌 Acknowledgements
-- FastAPI and TensorFlow Teams
-- Hugging Face Community Models
+## 🤝 Authors and Team Members
+- Trambak Konar
+- Esha Halder
+- Argha Roy Choudhary

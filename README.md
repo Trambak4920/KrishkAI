@@ -106,7 +106,6 @@ KrishkAI is an AI-driven agricultural ecosystem mobile app designed for Indian f
 
 - **Voice Input Support** — Speech-to-text integration in regional Indian languages  so farmers can interact with the app hands-free while working in the field.
 
----
 
 ### 🌾 Feature Enhancements
 
@@ -114,7 +113,6 @@ KrishkAI is an AI-driven agricultural ecosystem mobile app designed for Indian f
 
 - **Farm Journal** — A digital farm diary where farmers can log daily activities, input costs, and harvests to track profitability over time.
 
----
 
 ### 🛒 Marketplace Improvements
 
@@ -124,7 +122,6 @@ KrishkAI is an AI-driven agricultural ecosystem mobile app designed for Indian f
 
 - **Buyer Verification & Ratings** — A two-way rating and review system for buyers and sellers to build trust within the marketplace ecosystem.
 
----
 
 ### 🔐 Security & Build Enhancements
 

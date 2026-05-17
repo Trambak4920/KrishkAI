@@ -129,7 +129,7 @@ KrishkAI is an AI-driven agricultural ecosystem mobile app designed for Indian f
 
 - **Multi-factor Authentication (MFA)** — OTP-based login verification via SMS for enhanced account security.
 
-- **Production Cloud Deployment** — Migration to a fully scalable cloud infrastructure (AWS/GCP) with auto-scaling, load balancing, and 99.9% uptime SLA.
+- **Production Cloud Deployment** — Migration to a fully scalable cloud infrastructure with auto-scaling, load balancing, and 99.9% uptime SLA.
 
 - **Data Encryption** — End-to-end encryption for all sensitive farmer data including financial records and personal information.
 
